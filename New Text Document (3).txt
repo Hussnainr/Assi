@@ -1,0 +1,118 @@
+class Table
+{
+ public void mul()
+{
+ Console.Write("Enter your number:");
+int num=Convert.ToInt32(Console.ReadLine());
+for(int i=1;i<=10;i++)
+{
+ Console.WriteLine(i*num);
+}
+
+}
+}
+
+Table tb=new Table();
+tb.mul();
+
+task7
+
+class Factorial
+{ 
+  public void fact()
+{
+ Console.Write("Enter your number:");
+int num=Convert.ToInt32(Console.ReadLine());
+int fect=1;
+for(int i=1;i<=num;i++)
+{
+  fect=fact*i;
+}
+Console.Write("factorial:"+fect);
+}
+}
+Factorial ft=new Factorial();
+ft.fact();
+
+task8
+class PrimeNumber
+{
+ public void prime()
+{
+ int num=7;
+int count=0;
+
+
+
+
+
+task9
+
+class Triangle
+{
+ public void angle()
+{
+ int a,b,c;
+a=4;
+b=4;
+c=4;
+if(a==b||a==c)
+{
+ Console.WriteLine("Triangle is isosceles");
+}
+ else if(b==c||c==a)
+{
+ Console.WriteLine("Triangle is isosceles");
+}
+ else if(a==b&&b==c)
+{
+ Console.WriteLine("Triangle is equilateral");
+}
+else if(a==c&&c==b)
+{
+ Console.WriteLine("Triangle is equilateral");
+}
+else
+{'
+ Console.WriteLine("Triangle is scalene");
+}
+}
+}
+}
+}
+Triangle tn=new Triangle();
+tn=angle();
+
+task10
+class Pattern
+{
+ public void star()
+{
+ for(int i=1;i<=5;i++)
+{
+ for(int j=1;j<=i;j++)
+{
+ Console.Write("*");
+}
+Console.WriteLine();
+}
+}
+}
+Pattern pt=new Pattern();
+pt.star();
+
+task11
+class Palindrome
+{
+ public void pal()
+{
+ int num=11222211;
+int rem;
+int rslt=0;
+int temp=num;
+while(num!=0)
+{
+ 
+}
+}
+}
